@@ -9,20 +9,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/weather_title"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
         android:layout_gravity="center"
         android:layout_marginTop="@dimen/title_margin_top"
         android:textSize="@dimen/title_font_size"/>
 
     <TextView
+        android:id="@+id/city_weather"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/weather_value"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
         android:layout_gravity="center"
         android:layout_marginTop="@dimen/title_margin_top"
         android:textSize="@dimen/title_font_size"/>
