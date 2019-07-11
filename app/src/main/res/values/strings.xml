@@ -1,6 +1,9 @@
 <resources>
 
     <string name="app_name">android_1_lesson_1</string>
-    <string name="app_title">Погода</string>
+    <string name="weather_title">Погода</string>
+    <string name="life_cycle_title">Life Cycle</string>
+    <string name="main_activity_title">Меню</string>
+    <string name="weather_value">Москва: +22°</string>
 
 </resources>
